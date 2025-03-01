@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1 class="heading">My Portfolio</h1>
+            <nav class="nav">
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <img src="https://media.licdn.com/dms/image/v2/D4D03AQGa2JnMyJrGzg/profile-displayphoto-shrink_400_400/B4DZTRdmfaHkAk-/0/1738680990270?e=1746057600&v=beta&t=UmNo7V7HR0q0UkJMXyn82grtgpP4XHTYZD6OAkce2Ng" alt="img" class="img1">
+        <br>
+        <div class="container">
+            <h2>Welcome to My Portfolio</h2>
+            <p>I'm  Arnab Pal a passionate web developer .</p>
+            <a href="#projects" class="btn">View My Work</a>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Arnab Pal
+            </h2>
+            <p>I am Arnab Pal, currently pursuing a Bachelor of Computer Applications (BCA) at Adamas University. Passionate about technology and computer 
+                science, I am dedicated to expanding my knowledge and skills in the field of IT. My academic journey has given me a solid foundation in programming, 
+                data structures, and software development. I am eager to explore various 
+                aspects of technology, while also developing problem-solving skills that will help me contribute meaningfully to the tech industry in the future.</p>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2>My Projects and Side Skills</h2>
+            <div class="grid">
+                <div class="project">
+                    <h3> Library Management System</h3>
+                    <p>Description: A software solution to manage a library's daily operations, such as issuing and returning books, maintaining user records, tracking due dates, and generating reports.
+                        Technologies: Java, C++, or Python (with a database like MySQL or SQLite)</p>
+                    <a href="#" class="btn">View Project</a>
+                </div>
+                <div class="project">
+                    <h3>Student Management System2</h3>
+                    <p>Description: An application to store and manage student data, such as personal information, academic records, fees, and attendance.
+                        Technologies: Java, Python (Django or Flask), or PHP (with MySQL).</p>
+                    <a href="#" class="btn">View Project</a>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <form class="contact-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" required></textarea>
+                <button type="submit" class="btn">Send</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 My Portfolio</p>
+        </div>
+    </footer>
+
+    <script src="indes.js"></script>
+</body>
+</html>

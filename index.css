@@ -1,0 +1,199 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #000000;
+    
+}
+.heading{
+    justify-content: center;
+    margin-left: 490px;
+    font-size: 40px;
+}
+nav{
+    display: flex;
+    font-size: 30px;
+   
+    margin-left: 390px;
+}
+.container {
+    width: 80%;
+    margin: auto;
+
+ 
+}
+.img1
+{
+    height: 300px;
+    width: 300px;
+    border-radius: 150px;
+}
+header {
+    background: #412c05;
+    background-image: url("https://wallpapercave.com/uwp/uwp4244725.png");
+    color: #fff;
+    padding: 10px 0;
+    border-radius: 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ff6347; /* Tomato color on hover */
+}
+
+.hero {
+   
+    color: #fbfbfb;
+    text-align: center;
+    padding: 100px 0;
+    background-image: url("https://wallpapercave.com/wp/wp6118597.jpg");
+    background-color: #066565;
+    border-radius: 30px;
+}
+
+.hero h2 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+.hero p {
+    font-size: 1.2em;
+}
+
+.btn {
+    display: inline-block;
+    background: #ff6347; /* Tomato color */
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.btn:hover {
+    background: #e5533d; /* Darker tomato on hover */
+}
+
+section {
+    padding: 40px 0;
+    margin: 20px 0;
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+.about
+{
+    color: #ddd;
+    text-align: center;
+    background-image: url("https://wallpapercave.com/wp/wp7606157.jpg");
+
+} 
+
+
+.projects, .contact {
+    text-align: center;
+    background-color: #00085a;
+    background-image: url("https://wallpapercave.com/wp/wp11455935.png");
+}
+
+h2 {
+    margin-bottom: 20px;
+    font-size: 2em;
+}
+
+.project {
+    background-color: #fff;
+    margin: 20px 0;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    transition: transform 0.3s;
+}
+
+.project:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background: #333;
+    color: #fff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form label {
+    margin: 10px 0 5px;
+}
+
+form input, form textarea {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #fbf9f9;
+    border-radius: 5px;
+}
+
+form button {
+    background: #ff6347;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition:  
+}
+
+form button:hover {
+    background: #e5533d;
+}
+
+
+/* Responsive Styles 
+@media (max-width: 768px) {
+    .container {
+        width: 90%;
+    }
+
+    .hero h2 {
+        font-size: 2em;
+    }
+
+    .hero p {
+        font-size: 1em;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+}
